@@ -2,8 +2,7 @@
   "name": "@jcb/sass-utils",
   "version": "1.0.0",
   "description": "Utility mixins for scss/sass",
-  "scripts": {
-  },
+  "scripts": {},
   "author": "Jared C Baumgartner",
   "license": "MIT"
 }

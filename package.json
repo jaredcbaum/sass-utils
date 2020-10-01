@@ -1,5 +1,5 @@
 {
-  "name": "@jcb/sass-utils",
+  "name": "@jbaum/sass-utils",
   "version": "1.0.0",
   "description": "Utility mixins for scss/sass",
   "scripts": {},

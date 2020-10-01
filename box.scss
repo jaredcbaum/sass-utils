@@ -1,0 +1,73 @@
+
+@mixin box(
+  $a:null, $afm:null, $ai:null, $as:null, $b:null, $back:null, $bb:null,
+  $bl:null, $bord:null, $br:null, $bs:null,$bt:null, $c:null, $cg:null,
+  $contain:null, $color:null, $curs:null, $f:null, $fb: null, $fd:null,
+  $fg: null, $fw:null, $gac:null, $gg:null, $gtc:null, $h: null, $jc:null,
+  $ji:null, $js:null, $l:null, $mis:null, $mie:null, $mbs:null, $mbe:null,
+  $mxw: null, $mnw: null, $mxh:null, $mnh:null, $m:null, $d:null, $o:null,
+  $of:null, $order:null, $p: null, $pb:null, $pbe:null, $pbs:null, $pi:null,
+  $pie:null, $pis:null, $pos: null, $r:null, $rg:null, $t:null, $tf:null,
+  $trans:null, $ta:null, $v:null, $va:null, $w: null, $z:null
+) {
+  display:#{$d};
+  @if $c {
+    content: "#{$c}";
+  }  
+  padding: #{$p};
+  margin: #{$m};
+  margin-inline-start: #{$mis};
+  margin-inline-end: #{$mie};
+  margin-block-start: #{$mbs};
+  margin-block-end: #{$mbe};
+  background: #{$back};
+  color: #{$color};
+  flex-basis: #{$fb};   
+  flex-grow: #{$fg};
+  width: #{$w};
+  height: #{$h};
+  max-width: #{$mxw};
+  min-width: #{$mnw};
+  max-height: #{$mxh};
+  min-height: #{$mnh};
+  border-radius: #{$br};
+  position: #{$pos};
+  top: #{$t};
+  right: #{$r};
+  bottom: #{$b};
+  left: #{$l};
+  z-index: #{$z};
+  border: #{$bord};
+  padding-inline-start: #{$pis};
+  padding-inline-end: #{$pie};
+  padding-block-start: #{$pbs};
+  padding-block-end: #{$pbe};
+  padding-inline: #{$pi};
+  padding-block: #{$pb};
+  grid-template-columns: #{$gtc};
+  grid-auto-columns: #{$gac};
+  grid-gap: #{$gg};
+  column-gap: #{$cg};
+  row-gap: #{$rg};
+  justify-content:#{$jc};
+  justify-self:#{$js};
+  justify-items:#{$ji};
+  align-items:#{$ai};
+  align-self:#{$as};
+  order: #{$order};
+  flex-direction: #{$fd};
+  flex-wrap: #{$fw};
+  box-shadow: #{$bs};
+  opacity: #{$o};
+  transition: #{$trans};
+  overflow:#{$of};
+  transform:#{$tf};
+  text-align:#{$ta};
+  vertical-align: #{$va};
+  visibility: #{$v};
+  cursor: #{$curs};
+  contain: #{$contain};
+  fill: #{$f};
+  animation:#{$a};
+  animation-fill-mode: #{$afm};
+}

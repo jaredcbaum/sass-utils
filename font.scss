@@ -1,0 +1,14 @@
+@mixin font(
+  $color:null, $ff: null, $fs: null, $fw: null, $lh: null, $ls: null, $o:null,
+  $tt: null, $ws: null
+) {
+  font-family: #{$ff};
+  font-weight: #{$fw};
+  font-size: #{$fs};
+  line-height: #{$lh};
+  letter-spacing: #{$ls};
+  text-transform: #{$tt};
+  white-space: #{$ws};
+  color: #{$color};
+  opacity: #{$o};
+}
